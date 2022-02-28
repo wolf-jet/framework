@@ -1,0 +1,26 @@
+{
+  "name": "@wolf.jet/framework",
+  "version": "1.0.0",
+  "description": "A framework for Wolf.Live",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolf-jet/framework.git"
+  },
+  "author": "Fawazorg <foazorg@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "mime-types": "^2.1.27",
+    "socket.io-client": "^2.4.0",
+    "@wolf.jet/core": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/wolf-jet/framework/issues"
+  },
+  "homepage": "https://github.com/wolf-jet/framework#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
