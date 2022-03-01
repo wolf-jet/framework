@@ -178,7 +178,7 @@ module.exports = class CommandSystem {
 
     let user = await this.#Client.Subscribers.GetSubscriber(
       message.Originator.Id,
-      false,
+      true,
       true
     );
     let group = new Group([]);
